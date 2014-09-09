@@ -1,0 +1,95 @@
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: justify;
+	color: #25313B;
+}
+
+
+header {
+	text-align: center;
+}
+
+h1 {
+	font-family: "Dosis", sans-serif;
+	font-size: 40px;
+	background-color: #A0D6FF;
+}
+
+
+header h2 {
+	font-family: "Dosis", sans-serif;
+	font-size: 20px;
+}
+
+img {
+	width: 75px;
+	border-radius: 50%;
+	border: 5px solid black;
+
+
+}
+
+nav ul { 
+	font-family: 'Dosis', sans-serif;
+	list-style-type: none;
+	
+}
+
+li {display: inline-block;
+	font-size: 20px;
+padding-right: 10px;
+background-color: #A0D6FF; 
+border-radius: 10%;
+border: 2px solid #25313B ;
+text-align: center;}
+
+
+aside {
+	float: right;
+	width: 30%;
+}
+
+aside p {
+	font-family: "Dosis", sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background-color: #A0D6FF;
+}
+
+section h2 {font-family: "Dosis", sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background-color: #A0D6FF;}
+
+section { 
+	width: 60%;
+	float: left;
+	display: inline-block;
+}
+
+
+footer {
+	background-color:#A0D6FF;
+	font-family: "Dosis", sans-serif;
+	font-size: 16px;
+	text-align: center;
+	clear: both;
+}
+
+.right {float:right;
+		width:40%;}
+.left {float:left;
+width: 40%}
+
+h3 {text-align: center;
+color:#00487F;}
+
+article img {
+	width: 50px;
+	margin: auto;
+	display: block;
+}
+
+
+
+
