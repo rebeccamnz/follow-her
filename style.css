@@ -1,72 +1,135 @@
-body {
+
+
+
+/*body**************************************************************************/
+
+
+.wrapper {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+  padding: 20px 50px;
+  border-radius: 20%;
+}
+
+.rounded {
+	width: 50px;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+.rounded:hover {
+  opacity: 0.8;
+  }
+
+
+
+/*div**************************************************************************/
+
+.filter {
+  background:
+   radial-gradient(
+            rgba(160,214,255, 0.3),
+            rgba(160,214,255, 1)
+    )
+   ;
 	font-family: 'PT Sans Narrow', sans-serif;
 	text-align: justify;
 	color: #25313B;
 }
 
+/* HEADER **************************************************************************/
+
 
 header {
 	text-align: center;
-}
-
-h1 {
 	font-family: "Dosis", sans-serif;
-	font-size: 40px;
-	background-color: #A0D6FF;
-}
-
-
-header h2 {
-	font-family: "Dosis", sans-serif;
-	font-size: 20px;
-}
-
-img {
-	width: 75px;
-	border-radius: 50%;
-	border: 5px solid black;
-
-
-}
-
-nav ul { 
-	font-family: 'Dosis', sans-serif;
-	list-style-type: none;
 	
 }
 
-li {display: inline-block;
-	font-size: 20px;
-padding-right: 10px;
-background-color: #A0D6FF; 
-border-radius: 10%;
-border: 2px solid #25313B ;
-text-align: center;}
-
-
-aside {
-	float: right;
-	width: 30%;
+h1 {
+	
+	font-size: 40px;
+	background-color: #A0D6FF;
+	border-radius: 20px;
+	width: 70%;
+	text-align: center;
+	margin: auto;
 }
 
-aside p {
+header h2 {
+	font-size: 20px;
+}
+
+nav { 
+	list-style-type: none;
+	border-top: 1px solid rgb(160,214,255);
+  	border-bottom: 1px solid rgb(160,214,255);
+ 	margin: 20px 0;	
+}
+
+li {
+	display: inline-block;
+	font-size: 20px;
+	padding-right: 10px;
+	color: #A0D6FF; 
+	text-align: center;
+	margin:10px 30px;
+}
+
+li:hover{
+	font-size: 24px; 
+}
+
+
+#logo { width: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/* Section **************************************************************************/
+
+
+
+h3 {text-align: center;
+color:#00487F;}
+
+
+.left {
+	float:left;
+	display: inline;
+	width: 60%
+}
+
+
+.rightbis {float:right;
+		width:45%;}
+.leftbis {float:left;
+width: 45%}
+
+
+.writing{
 	font-family: "Dosis", sans-serif;
 	font-size: 16px;
-	text-align: center;
-	background-color: #A0D6FF;
+	
 }
 
-section h2 {font-family: "Dosis", sans-serif;
-	font-size: 16px;
-	text-align: center;
-	background-color: #A0D6FF;}
 
-section { 
-	width: 60%;
-	float: left;
-	display: inline-block;
-}
 
+/* Aside ***************************************************************************/
+
+.right {float:right;
+		width:30%;}
+
+
+.subtitle {
+	font-size: 20px;
+	background-color: #A0D6FF}
+
+/* Footer *************************************************************************/
 
 footer {
 	background-color:#A0D6FF;
@@ -74,21 +137,25 @@ footer {
 	font-size: 16px;
 	text-align: center;
 	clear: both;
-}
-
-.right {float:right;
-		width:40%;}
-.left {float:left;
-width: 40%}
-
-h3 {text-align: center;
-color:#00487F;}
-
-article img {
-	width: 50px;
+	border-radius: 20px;
+	width: 70%;
 	margin: auto;
-	display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 
